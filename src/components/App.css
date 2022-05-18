@@ -1,0 +1,46 @@
+button {
+  background-color: #fbbf24;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid #fbbf24;
+  padding: 4px 9px;
+  margin: 10px;
+  cursor: pointer;
+}
+.btn_card {
+  background-color: #fff;
+  color: #fbbf24;
+}
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+.App h2 {
+  margin-bottom: 30px;
+}
+.todo {
+  background-color: #64748b;
+  color: white;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #fbbf24;
+}
+input {
+  border-radius: 8px;
+  width: 200px;
+  height: 30px;
+}
+.hedaer_NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
